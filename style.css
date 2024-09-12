@@ -1,0 +1,89 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(70, 63, 63);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: green;
+    text-align: center;
+}
+
+.lines{
+    border-bottom: solid green 4px;
+    margin-bottom: 8px;
+}
+
+.homeDetails{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    padding: 25px;
+    width: 800px;
+    background-color: rgb(77, 75, 75);
+    border-radius: 10px;    
+    align-items: center;
+}
+
+.homeAddPersonnel{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+input, select{
+    margin: 3px;
+    width: 80%;
+    border-radius: 9px;
+    height: 30px;
+    background-color: rgb(36, 33, 33);
+    color: white;
+}
+
+.addButton{
+    background-color: green;
+    border-radius: 9px;
+}
+
+table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+td, th{
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+th{
+    padding: 10px;
+    background-color: white;
+}
+
+.actd{
+    display: flex;
+    flex-direction: column;    
+}
+
+.btn{
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+}
+
+.sortNames{
+    align-items: center;
+    background-color: green;
+    border-radius: 6px;
+    color: white;
+}
+
+
+  .editDetails{
+    display: none;
+  }
+
+.rowsInTable{
+    color: white;
+}

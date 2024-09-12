@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="homePage">
+        <H1>BATTALION FORCE MANAGEMENT</H1>
+        <div class="lines"></div>
+        <div class="homeAddPersonnel">
+            <div class="homeDetails">
+            <input type="text" class="fullName-inp" placeholder="Full Name">
+            <input type="text" class="rank-inp" placeholder="Rank">
+            <input type="text" class="position-inp" placeholder="position">
+            <input type="text" class="platoon-inp" placeholder="Platoon">
+            <input type="text" class="missionTime-inp" placeholder="Mission Time (seconds)">
+            <select name="select" class="selectedStatus"></select>
+            <input type="button" class="addButton" value="Add Personnel">      
+            </div>      
+        </div>
+        <H1>FORCES OVERVIEW</H1>
+        <div class="lines"></div>
+        <table class="homeTable">
+            <thead>
+                <tr>
+                    <th> <div class="sortNames" onclick="sortSoldiersList()">Full Name ⬇</div></th>
+                    <th>Rank</th>
+                    <th>Position</th>
+                    <th>Platoon</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody class="rowsInTable">
+            </tbody>
+            </table>
+        </div>
+        <div class="editDetails">
+            <input type="text" class="fullName-inp" value="Full Name">
+            <input type="text" class="rank-inp" value="Rank">
+            <input type="text" class="position-inp" value="position">
+            <input type="text" class="platoon-inp" value="Platoon">
+            <input type="text" class="missionTime-inp" value="Mission Time (seconds)">
+            <select name="select" class="selectedStatus"></select>
+            <input type="button" value="Save Changes">
+            <input type="button" value="Cancle">  
+    </div>
+</body>
+</html>
