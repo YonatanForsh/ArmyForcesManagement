@@ -156,6 +156,7 @@ function addSoldier()
     const allSoldiers = loadLocalStorage()
     allSoldiers.push(newSoldier)
     saveInLocalStorage(allSoldiers)
+    displayPerssonels()
     addCounter ++
 }
 
